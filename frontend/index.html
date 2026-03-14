@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ToxiView Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>ToxiView — Food Toxicants Dashboard</h1>
+  </header>
+
+  <main>
+    <!-- GROUP COUNT BAR CHART -->
+    <section>
+      <h2>Papers per Toxicant Group</h2>
+      <canvas id="barChart"></canvas>
+    </section>
+
+    <hr>
+
+    <!-- SEARCH SECTION -->
+    <section id="controls">
+      <h2>Search Papers</h2>
+      <input id="searchInput" placeholder="Search by title, abstract, keyword...">
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section id="results"></section>
+  </main>
+
+  <script src="api.js"></script>
+  <script src="charts.js"></script>
+</body>
+</html>

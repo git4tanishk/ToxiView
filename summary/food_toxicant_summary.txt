@@ -1,0 +1,102 @@
+============================================
+     FOOD TOXICANTS SUMMARY REPORT (Auto)
+============================================
+
+Total papers analyzed: 30141
+
+
+
+🍽️ DAIRY:
+--------------------------------------------
+- aflatoxin  (1420 papers)
+- lead  (918 papers)
+- mycotoxin  (855 papers)
+- melamine  (355 papers)
+- ochratoxin  (310 papers)
+- bisphenol  (286 papers)
+- pesticide  (221 papers)
+- phthalate  (188 papers)
+
+
+🍽️ MEAT:
+--------------------------------------------
+- lead  (670 papers)
+- mycotoxin  (213 papers)
+- ochratoxin  (146 papers)
+- aflatoxin  (125 papers)
+- pah  (103 papers)
+- pesticide  (93 papers)
+- arsenic  (90 papers)
+- acrylamide  (88 papers)
+
+
+🍽️ POULTRY:
+--------------------------------------------
+- lead  (606 papers)
+- mycotoxin  (411 papers)
+- aflatoxin  (342 papers)
+- ochratoxin  (158 papers)
+- pesticide  (69 papers)
+- arsenic  (61 papers)
+- cadmium  (58 papers)
+- mercury  (42 papers)
+
+
+🍽️ SEAFOOD:
+--------------------------------------------
+- lead  (504 papers)
+- mercury  (397 papers)
+- cadmium  (221 papers)
+- arsenic  (221 papers)
+- microplastic  (181 papers)
+- mycotoxin  (136 papers)
+- pesticide  (119 papers)
+- bisphenol  (118 papers)
+
+
+🍽️ RICE:
+--------------------------------------------
+- mycotoxin  (851 papers)
+- aflatoxin  (603 papers)
+- lead  (547 papers)
+- pesticide  (418 papers)
+- ochratoxin  (411 papers)
+- arsenic  (289 papers)
+- cadmium  (282 papers)
+- phthalate  (114 papers)
+
+
+🍽️ GRAINS:
+--------------------------------------------
+- mycotoxin  (3166 papers)
+- aflatoxin  (1220 papers)
+- ochratoxin  (898 papers)
+- lead  (634 papers)
+- pesticide  (295 papers)
+- cadmium  (252 papers)
+- acrylamide  (191 papers)
+- arsenic  (189 papers)
+
+
+🍽️ VEGETABLES:
+--------------------------------------------
+- pesticide  (710 papers)
+- lead  (467 papers)
+- mycotoxin  (208 papers)
+- cadmium  (188 papers)
+- arsenic  (110 papers)
+- aflatoxin  (109 papers)
+- 3-mcpd  (106 papers)
+- phthalate  (98 papers)
+
+
+🍽️ FRUITS:
+--------------------------------------------
+- pesticide  (745 papers)
+- lead  (561 papers)
+- mycotoxin  (465 papers)
+- ochratoxin  (204 papers)
+- aflatoxin  (187 papers)
+- cadmium  (117 papers)
+- arsenic  (79 papers)
+- nickel  (74 papers)

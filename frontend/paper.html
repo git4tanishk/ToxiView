@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Paper — ToxiView</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="paper"></div>
+
+  <script src="api.js"></script>
+  <script>
+    async function load() {
+      const url = new URL(window.location.href);
+      const pmid = url.searchParams.get("pmid");
+
+      if (!pmid) {
+        document.getElementById("paper").innerHTML =
+          "<h2>No PMID provided.</h2>";
+        return;
+      }
+
+      const p = await apiGetPaper(pmid);
+
+      document.getElementById("paper").innerHTML = `
+        <h1>${p.title}</h1>
+
+        <p><strong>Journal:</strong> ${p.journal} (${p.year})</p>
+        <p><strong>PMID:</strong> ${p.pmid}</p>
+        <p><strong>Keyword:</strong> ${p.keyword}</p>
+        <p><strong>Group:</strong> ${p.group}</p>
+        <p><strong>Relevance Score:</strong> ${p.relevance}</p>
+
+        <h2>Abstract</h2>
+        <p>${p.abstract}</p>
+
+        <p><a href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}" target="_blank">
+          🔗 Open on PubMed
+        </a></p>
+      `;
+    }
+
+    load();
+  </script>
+</body>
+</html>
